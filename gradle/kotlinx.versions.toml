@@ -1,0 +1,17 @@
+[versions]
+kotlin_version = "1.9.10"
+
+[libraries]
+gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin_version" }
+
+coroutines-bom = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-bom", version = "1.7.3" }
+coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android" }
+
+coroutines-guava = "org.jetbrains.kotlinx:kotlinx-coroutines-guava:1.7.3"
+
+[bundles]
+coroutines = ["coroutines-core", "coroutines-android"]
+
+[plugins]
+android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin_version" }

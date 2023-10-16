@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_images">Alle Bilder</string>
+    <string name="selected_placeholder">Ausgewählt %1$d</string>
+    <string name="select_all">Alle wählen</string>
+    <string name="show_filters">Show filters</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="take_picture">Take picture</string>
+    <string name="checked">Checked</string>
+    <string name="unchecked">Unchecked</string>
+    <string name="check_all">Check all</string>
+    <string name="close_filters">Close filters</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+</resources>
